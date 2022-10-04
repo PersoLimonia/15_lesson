@@ -21,7 +21,7 @@
 }
 
 .header {
-    background-color: #ffff;
+    background-color: #FFFFFF;
     border: 1px  solid #E5E5E5;
     border-top-style: none;
     border-left-style: none;
@@ -296,7 +296,6 @@
 .card-info-third-pic {
     display: flex; 
     flex-flow:column wrap;
-    width: 632px;
 }
 
 .indent {
@@ -355,12 +354,11 @@
 
 .pic-third {
     display: flex; 
-    width: 632px;
 }
 
 .section-fourth {
     background-color: #FFF8E4;
-    padding: 120px 15px 0 15px;
+    padding: 120px 0px 0 0px; 
 }
 
 .card-fourth {
@@ -368,6 +366,10 @@
     max-width: 1290px;
     min-width: 320px;
     margin: 0 auto;
+}
+
+.card-info-fourth {
+    margin: 0 15px;
 }
 
 .cardis {
@@ -441,7 +443,6 @@ a:active {
 .section-fifth {
     background-color: #FFFFFF;
     padding: 154px 0px 187px 0px;
-    margin: 0 15px;
 }
 
 .card-fifth {
@@ -452,7 +453,6 @@ a:active {
 }
 
 .card-fifth-text {
-    display: flex;
     font-family:'GraphikLCG-Semibold';
     font-size: 50px;
     line-height: 60px;
@@ -466,13 +466,13 @@ a:active {
     justify-content: space-evenly;
     align-items:baseline;
     flex-wrap:wrap;
+    margin: 0 15px;
 }
 
 .cards-fifth-one{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items:flex-start;
     width: 330px;
 }
 
@@ -531,22 +531,27 @@ a:active {
 
 .section-sixth {
     background-color: #C9E8F2;
-    padding: 0 15px;
+    padding: 53px 0px 105px 0px;
 }
 
 .card-info-sixth {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1290px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 53px 0px 105px 0px;
+}
+
+.cards-sixth {
+    display: flex;
+    margin: 0 15px;
 }
 
 .cards-sixth-one {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .title-sixth {
@@ -565,14 +570,17 @@ a:active {
     margin-bottom: 6px;
 }
 
-.photo-sixth {
+.cards-sixth-on {
     display: flex;
     justify-content: flex-end;
 }
 
+.photo-sixth {
+    margin-right: 15px;
+}
+
 .section-seventh {
     background-color: #DABC98;
-    padding: 0 15px;
 }
 
 .card-info-seventh {
@@ -587,6 +595,7 @@ a:active {
 
 .cards-seventh-one {
     display: flex;
+    justify-content: center;
 }
 
 .bord {
@@ -668,18 +677,18 @@ a:active {
 }
 
 .section-ninth {
-    background-color: #FF9C7D;
-    padding: 119px 0 161px 0;
+    background-color: #FF9C7D; 
 }
 
 .card-info-ninth{
+    background-color: #FF9C7D;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1290px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 119px 15px 161px 15px;
 }
 
 .title-ninth {
@@ -709,6 +718,7 @@ a:active {
     background: #000000;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
   
 .button-ninth:hover {
@@ -759,6 +769,10 @@ a:active {
 .card-info-tenth {
     display: flex;
     flex-direction: column; 
+}
+
+.photo-tenth {
+    width: 100%;
 }
 
 .tit-tenth {
@@ -838,22 +852,20 @@ a:active {
 
 .section-eleventh {
     background-color: #EEEEEE;
-    padding: 0px 0px 42px 0px;
 }
 
-.footer {
+.footer-eleventh {
+    margin: 0 auto;
+    border-top: 1px solid #000000;
+}
+
+.card-eleventh {
     max-width: 1290px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 0 15px;
-    border-top: 1px solid #000000;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
-}
-
-.loganav-eleventh {
-    display: flex;
-    justify-content: space-between;
+    padding: 52px 15px 42px 15px;
 }
 
 .title-eleventh {
@@ -881,10 +893,6 @@ a:active {
     color: #000000; 
 }
 
-.loganav-eleventh, .log-eleventh {
-    margin-top: 75px;
-}
-
 .log-eleventh:hover {
     transform: scale(2.0);
     color: #00ff00;
@@ -899,7 +907,9 @@ a:active {
     .header-card {
         display:flex ;
         flex-direction: column;
+        width: 100%;
     }
+
     .loganav {
         margin-bottom: 25px;
         flex-direction: column;
@@ -914,7 +924,7 @@ a:active {
     }
 
     .text-color {
-        width: 250px;
+        width: 100%;
         height: 60px;
         font-size: 20px;
     }
@@ -935,8 +945,9 @@ a:active {
         font-size: 20px;
         align-items: center;
     }
+
     .pic-first img {
-        width: 600px;
+        width: 100%;
         margin-bottom: 25px;
     }
 
@@ -951,6 +962,7 @@ a:active {
     .section-second {
         padding: 50px 0px 0px 0px;
     }
+
     .pic-sec {
         margin-bottom: 0px;
     }
@@ -964,6 +976,7 @@ a:active {
         text-align: center;
         display: flex;
         align-items: center;
+        width: 538px;
     }
 
     .card-info-third {
@@ -971,6 +984,7 @@ a:active {
         text-align: center;
         display: flex;
         align-items: center;
+        width: 538px;
     }
 
     a.button-third {
@@ -1002,7 +1016,8 @@ a:active {
 
     .cards-fifth-one {
         align-items: center;
-        margin-bottom: 100px ;
+        margin-bottom: 100px;
+        width: 100%;
     }
 
     .button-fifth {
@@ -1010,26 +1025,23 @@ a:active {
         align-items: center;
         text-align: center;
         align-content: center;
-   }
-
-    .card-info-sixth {
-        flex-direction: column-reverse;
-        padding: 50px 0px 50px 0px;;
     }
 
-    .photo-sixth {
+        .cards-sixth-on {
         justify-content: center;
-        margin-bottom: 35px;
+        margin-bottom: 35px;   
     }
 
     .cards-sixth-one {
         text-align: center;
     }
-
+   
     .title-seventh {
-        text-align: center;
         border-bottom: 1px solid #000000;
+        text-align: center;
         margin-left: 0;
+        font-size: 30px;
+        line-height: 35px;
     }
     
     .bord {
@@ -1038,6 +1050,7 @@ a:active {
 
     .card-info-seventh {
         flex-direction: column ;
+        justify-content: center;
         padding: 40px 0px 84px 0px;
     }
 
@@ -1047,7 +1060,7 @@ a:active {
     }
 
     .cards-eighth-one img {
-        width: 750px;
+        width: 100%;
     }
 
     .button-eighth {
@@ -1056,6 +1069,10 @@ a:active {
 
     .section-ninth {
         padding: 50px 0;
+    }
+
+    .card-info-ninth {
+        padding: 0px 15px 0px 15px;
     }
 
     .button-ninth {
@@ -1078,6 +1095,8 @@ a:active {
 
     .card-in-tenth-two {
         flex-direction: column;
+        margin-left: 0;
+        width: 100%;
     }
 
     .card-info-tenth {
@@ -1087,10 +1106,6 @@ a:active {
     .card-in-tenths {
         margin-left: 0;
         margin-bottom: 100px;
-    }
-
-    .card-in-tenth-two {
-        margin-left: 0;
     }
 
     .title-tenth-main {
@@ -1113,15 +1128,23 @@ a:active {
 
     .card-pic img {
         margin-bottom: 15px;
-        width: 160px;
     }
 
     .nain {
         margin: 50px 0px 50px 0px; ;
     }
 
+    .cards-sixth {
+        flex-direction: column-reverse;
+        margin: 0 15px;
+    }
+
+    .photo-sixth {
+        margin-right: 0px;
+    }
+
     .cards-eighth-one img {
-        width: 640px;
+        width: 100%;
     }
 }
 
@@ -1132,7 +1155,7 @@ a:active {
     
     .list {
         flex-direction: column;
-        align-items: center;
+        align-items: center;   
     }
 
     .item-one .margin ~ .item {
@@ -1176,6 +1199,11 @@ a:active {
         margin-bottom: 15px;
     }
 
+    .title-first {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    
    .but-ton.text-colo {
         width: 100%;
         height: 60px;
@@ -1195,11 +1223,11 @@ a:active {
     }
 
     .pic-first img {
-        width: 450px;
+        width: 100%;
     }
 
-   .card-info-third-pic {
-        width: auto;
+    .card-info-third-pic .pic-third img {
+        width: 100%;
     }
 
     .info-text-third {
@@ -1209,11 +1237,13 @@ a:active {
     .button-third {
         font-size: 25px;
     }
+
     .section-fourth {
         padding: 80px 0 0 0;
     }
 
     .info-text-fifth {
+        width: 100%;
         font-size: 27px;
     }
 
@@ -1226,8 +1256,16 @@ a:active {
         font-size: 24px;
     }
 
+    .photo-sixth img {
+        width: 100%;
+    }
+
+    .cards-seventh-one img {
+        width: 100%;
+    }
+
     .cards-eighth-one img {
-        width: 500px;
+        width: 100%;
     }
 
     .title-eighth {
@@ -1244,20 +1282,105 @@ a:active {
     }
 
     .title-ninth {
-        font-size: 50px;
-        line-height: 55px
+        font-size: 40px;
+        line-height: 45px
     }
 
-    .footer {
-    padding: 25px 0 0 15px;
+    .lebl-tenth img{
+        width: 50%;
     }
 
-    .loganav-eleventh {
+    .card-eleventh {
+        display: flex;
         flex-direction: column;
+        align-items: center;
         margin-top: 0;
     }
 
+    .loganav-eleventh {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .card-pic-eleventh img {
+        width: 100%;
+    }
+
     .title-eleventh {
+        margin-bottom: 20px;
+        text-align: center;
         margin-left: 0;
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .log-eleventh {
+        text-align: center;
+        font-size: 15px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .title-first {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .card-title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .pic-sec .margin ~ .pic-second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pic-sec img  {
+        margin-bottom: 35px;
+    }
+
+    .pic-second {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .card-info-third-pic .pic-third img {
+        width: 100%;
+    }
+
+    .info-text-fourth {
+        width: 100%;
+    }
+
+    .info-text-fifth {
+        width: 100%;
+        font-size: 25px;
+    }
+        
+    .card-info-sixth {
+        margin: 0;
+    }
+
+    .card-info-seventh {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-seventh {
+        border-bottom: 1px solid #000000;
+    }
+
+    .title-eighth {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
     }
 }
